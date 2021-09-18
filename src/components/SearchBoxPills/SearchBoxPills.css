@@ -1,0 +1,27 @@
+.search-box-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+  }
+  
+  .search-box-pills--padding {
+    padding: 10px;
+  }
+  
+  .search-box-pill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 17px;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .search-box-pill:last-child {
+    margin-right: 0;
+  }

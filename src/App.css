@@ -1,26 +1,20 @@
-.App {
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: #212121;
+  --white-color: #ffffff;
+}
+
+.app {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   padding: 2rem;
 }
 
-.App-search-box {
-  width: 60%;
-}
-
-.App-search-box > div {
-  width: 100%;
-}
-
-.App-list {
-  background: #fff;
-  color: #212121;
-}
-
-.App-list--border {
-  border: 1px solid #3f51b5;
+.app-title {
+  color: var(--secondary-color);
+  margin-bottom: 10rem;
 }

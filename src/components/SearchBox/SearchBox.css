@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #3f51b5;
+    --secondary-color: #212121;
+    --white-color: #ffffff;
+  }
+  
+  .search-box {
+    width: 60%;
+  }
+  
+  .search-box > div {
+    width: 100%;
+  }
+  
+  .search-box--inner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+  }
+  
+  .App-list {
+    background: var(--white-color);
+    color: var(--secondary-color);
+  }
+  
+  .App-list--border {
+    border: 1px solid var(--primary-color);
+  }
+  
+  .App-item--disabled {
+    text-decoration: line-through;
+  }
+  
+  .App-pills {
+    display: flex;
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+  }
+  
+  .App-pills--padding {
+    padding: 10px;
+  }
+  
+  .App-pill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 17px;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .App-pill:last-child {
+    margin-right: 0;
+  }

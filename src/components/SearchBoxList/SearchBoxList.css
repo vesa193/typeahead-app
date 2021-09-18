@@ -1,0 +1,12 @@
+.search-box-list {
+    background: var(--white-color);
+    color: var(--secondary-color);
+}
+  
+.search-box-list--border {
+    border: 1px solid var(--primary-color);
+}
+
+.search-box-item--disabled {
+    text-decoration: line-through;
+}
